@@ -1,0 +1,30 @@
+{
+    "name": "gruescriptlang",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": ">=0.9.0-pre.1"
+    },
+    "publisher": "me",
+    "contributes": {
+        "languages": [
+            {
+                "id": "gruescriptlang",
+                "aliases": [
+                    "GruescriptLang",
+                    "gruescriptlang",
+                    "gruescript"
+                ],
+                "extensions": [
+                    ".gru"
+                ]
+            }
+        ],
+        "grammars": [
+            {
+                "language": "gruescriptlang",
+                "scopeName": "source.gruescript",
+                "path": "./syntaxes/gruescript.tmLanguage"
+            }
+        ]
+    }
+}
